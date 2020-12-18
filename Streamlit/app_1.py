@@ -85,6 +85,8 @@ def main():
 
 	product = data.groupby(['ProductID','ProductName','Category','Sub-Category','Group']).count().reset_index()[['ProductID','ProductName','Category','Sub-Category','Group']]
 
+	
+
 	#title=st.title("SuperStore App")
 	#st.markdown(f"<span style='color: blue;font-size: 24px;font-weight: bold;'>{'SuperStore App'}</span>", unsafe_allow_html=True)
 
@@ -126,14 +128,17 @@ def main():
 		st.markdown("We also recommend items you may want to see based on your search")
 
 	elif choice == "Login":		
-
+		#users = pass_data['Customer_ID'].unique().tolist()
 		username = st.sidebar.text_input("User Name")
 		password = st.sidebar.text_input("Password",type = 'password')
 		x=pass_data[pass_data['Customer_ID']==username]
 		lbtn=st.sidebar.button("Login")
  
 		if lbtn:
-			if(username==""):
+			if x.empty:
+				st.warning("Invalid User Name/Password")
+
+			elif(username==""):
 				st.warning("User Name cannot be empty")
 			elif(password==""):
 				st.warning("Password cannot be empty")
@@ -142,8 +147,9 @@ def main():
 				st.subheader("Recommendations for you:")
 				user_top_k = data[data['Customer_ID']==int(username)]
 				st.dataframe(user_top_k[['ProductID','ProductName','Category','Sub-Category']].head(10))
-			else:
+			elif((x.iloc[0].Customer_ID!=username) | (x.iloc[0].Password!=password)):
 				st.warning("Invalid User Name/Password")
+			
 
 
 	elif choice == "Search":
