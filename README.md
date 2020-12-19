@@ -18,8 +18,8 @@ Heroku: https://superstoreapp.herokuapp.com/
 https://datastudio.google.com/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854
 https://datastudio.google.com/u/0/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854/page/UIhtB
 
-![Screenshot](C:\Users\rishv\OneDrive\Pictures\dash.PNG)
-![Screenshot](C:\Users\rishv\OneDrive\Pictures\dash.PNG)
+![image](https://user-images.githubusercontent.com/73679593/102679947-f318af80-4181-11eb-9f7d-2f4f5cea63e4.png)
+![image](https://user-images.githubusercontent.com/73679593/102679964-26f3d500-4182-11eb-98fb-7a2608d01120.png)
 
 # Approach
 1. We performed EDA and analyzed customer behavior trends to better understand our customer's data 
