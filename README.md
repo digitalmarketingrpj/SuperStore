@@ -70,14 +70,14 @@ When a customer searches a product,the app displays the product searched and als
 When a new customer opens the app,product recommendations are provided based on popularity
 
 #### Test Cases
-##### 1. Login
-####### User Name(Top): 25, 33, 43, 46, 49, 58, 62, 65, 74, 80
-####### User Name(Regular): 200, 202, 204, 206, 207, 210, 211, 212, 213, 215
-####### User Name(Lost): 100, 104, 108, 109, 121, 128, 135, 139, 141, 144
-####### Password: SuperStore
+##### Login
+1. User Name(Top): 25, 33, 43, 46, 49, 58, 62, 65, 74, 80
+2. User Name(Regular): 200, 202, 204, 206, 207, 210, 211, 212, 213, 215
+3. User Name(Lost): 100, 104, 108, 109, 121, 128, 135, 139, 141, 144
+4. Password: SuperStore
 
 ##### 2. Search
-####### Product Name:
+Product Name:
 1. Tenex Lockers, Blue
 2. Memorex Memory Card, USB
 3. Fellowes File Cart, Industrial
