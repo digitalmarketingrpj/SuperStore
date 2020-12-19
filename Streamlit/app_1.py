@@ -160,11 +160,14 @@ def main():
 
 
 		if st.button("Search"):
-			st.subheader("Item you searched")
-			if(search == prod.iloc[0].ProductName==search):
+			
+			if prod.empty:
+				st.warning("No results found")
+			elif(search == prod.iloc[0].ProductName==search):
+				st.subheader("Item you searched")
 				st.dataframe(prod[['ProductID','ProductName','Category','Sub-Category']].head(1))
 				st.subheader("Similar items you may like")
-				st.dataframe(product[(product['Group']==g.iloc[0].Group) & (product['ProductName']!=search)][['ProductID','ProductName','Category','Sub-Category']])
+				st.dataframe(product[(product['Group']==g.iloc[0].Group) & (product['ProductName']!=search)][['ProductID','ProductName','Category','Sub-Category']].head(10))
 
 	elif choice == "New Customer":
 		st.subheader("Recommendations for you")
