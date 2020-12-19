@@ -3,7 +3,7 @@ The explosive growth of online content and services has provided a myriad of cho
 The corollary of pleasant and convenient user experience is augmented profits for businesses. Before curating a set of products for different users, it is imperative to understand them better. Every customer is unique. Hence, if you treat them the same way with the same content, same channel, same importance, they will find another option which understands them better.\
 We segment the users based on RFM Modelling and create personalised Recommender System models based on Collaborative filtering.\
 In order to tackle the cold-start problem i.e. when new user opens the app we recommend popular items\n
-Users can search for products and with product similarity search we display similar products to product that user searched for \
+Users can search for products and with product similarity search we display similar products to product that user searched for 
 
 # Project Proposal
 CLAAT: https://codelabs-preview.appspot.com/?file_id=1v93fwAPwqChS22TUFjwjyT-RNtvWgNpaRr53NvFMF3U#0
@@ -15,8 +15,8 @@ CLAAT: https://codelabs-preview.appspot.com/?file_id=1Sw4fG-F6BLDCx5oMwuYoyhWEHM
 Heroku: https://superstoreapp.herokuapp.com/
 
 # Dashboard
-   https://datastudio.google.com/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854 \
-   https://datastudio.google.com/u/0/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854/page/UIhtB
+   https://datastudio.google.com/u/0/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854/page/UIhtB \
+   https://datastudio.google.com/u/0/reporting/8fe1e49e-78be-4b1b-b2b5-94ad5d9db854/page/ypstB
 
 ![image](https://user-images.githubusercontent.com/73679593/102679947-f318af80-4181-11eb-9f7d-2f4f5cea63e4.png)
 ![image](https://user-images.githubusercontent.com/73679593/102679964-26f3d500-4182-11eb-98fb-7a2608d01120.png)
